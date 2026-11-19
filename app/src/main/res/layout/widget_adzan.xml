@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wide variant: the header row (Hijri date and current location) above six prayer columns. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:id="@+id/row_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:baselineAligned="false">
+
+        <TextView
+            android:id="@+id/hijri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
+            tools:text="12 Rabiul Awal 1447 H" />
+
+        <!-- The liveness heartbeat: a Chronometer is ticked by the launcher, not by this app,
+             so it keeps counting up even while the app is frozen or force-stopped and its
+             alarm chain is dead. A reading that has climbed past half an hour is the user's
+             signal that no adzan is coming; tapping the widget re-arms everything. -->
+        <Chronometer
+            android:id="@+id/heartbeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:textColor="#B9C4D0"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            tools:text="Maghrib · 1:23:45" />
+
+        <!-- A plain <View> is not on the RemoteViews allowlist; FrameLayout is. -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B9C4D0"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            tools:text="Riunggunung" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="6dp"
+            android:src="@drawable/ic_moon"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_times"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:id="@+id/col_0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/pill_inactive">
+
+            <TextView
+                android:id="@+id/label_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B9C4D0"
+                android:textSize="11sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Fajr" />
+
+            <TextView
+                android:id="@+id/time_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                tools:text="04:35" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/col_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/pill_inactive">
+
+            <TextView
+                android:id="@+id/label_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B9C4D0"
+                android:textSize="11sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Fajr" />
+
+            <TextView
+                android:id="@+id/time_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                tools:text="04:35" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/col_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/pill_inactive">
+
+            <TextView
+                android:id="@+id/label_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B9C4D0"
+                android:textSize="11sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Fajr" />
+
+            <TextView
+                android:id="@+id/time_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                tools:text="04:35" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/col_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/pill_inactive">
+
+            <TextView
+                android:id="@+id/label_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B9C4D0"
+                android:textSize="11sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Fajr" />
+
+            <TextView
+                android:id="@+id/time_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                tools:text="04:35" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/col_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/pill_inactive">
+
+            <TextView
+                android:id="@+id/label_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B9C4D0"
+                android:textSize="11sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Fajr" />
+
+            <TextView
+                android:id="@+id/time_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                tools:text="04:35" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/col_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/pill_inactive">
+
+            <TextView
+                android:id="@+id/label_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B9C4D0"
+                android:textSize="11sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Fajr" />
+
+            <TextView
+                android:id="@+id/time_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                tools:text="04:35" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

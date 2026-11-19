@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adzan Widget</string>
+    <string name="widget_description">Jadwal salat untuk lokasi Anda</string>
+
+    <string name="prayer_fajr">Subuh</string>
+    <string name="prayer_syuruq">Syuruq</string>
+    <string name="prayer_dhuhr">Zuhur</string>
+    <string name="prayer_asr">Asar</string>
+    <string name="prayer_maghrib">Magrib</string>
+    <string name="prayer_isha">Isya</string>
+    <string name="prayer_jumuah">Jumat</string>
+
+    <string name="madhab_shafi">Syafi\'i (umum)</string>
+    <string name="madhab_hanafi">Hanafi</string>
+
+    <string name="method_kemenag">Kemenag (Indonesia)</string>
+    <string name="method_mwl">Liga Muslim Dunia</string>
+    <string name="method_isna">ISNA (Amerika Utara)</string>
+    <string name="method_egypt">Otoritas Umum Mesir</string>
+    <string name="method_karachi">Universitas Karachi</string>
+    <string name="method_umm_al_qura">Umm al-Qura (Makkah)</string>
+    <string name="method_singapore">MUIS (Singapura)</string>
+    <string name="method_custom">Sudut khusus</string>
+
+    <string name="sound_silent">Senyap (hanya notifikasi)</string>
+    <string name="sound_beep">Nada pendek</string>
+    <string name="sound_makkah">Adzan — Makkah</string>
+    <string name="sound_haram">Adzan — Masjidil Haram</string>
+    <string name="sound_jumuah">Adzan — Jumat</string>
+    <string name="sound_subuh_makkah">Adzan Subuh — Makkah</string>
+    <string name="sound_subuh_madinah">Adzan Subuh — Madinah</string>
+
+    <string name="sound_custom">Suara saya sendiri</string>
+    <string name="sound_custom_recording">Rekaman saya</string>
+    <string name="section_custom_sound">Suara khusus</string>
+    <string name="custom_sound_none">Belum ada suara khusus. Pilih berkas audio atau rekam dulu, lalu pilih “Suara saya sendiri” untuk salat mana pun.</string>
+    <string name="custom_sound_current">Dipakai: %1$s</string>
+    <string name="custom_sound_missing">Suara tersimpan tidak lagi bisa dibaca. Pilih atau rekam ulang.</string>
+    <string name="action_pick_audio">Pilih berkas audio</string>
+    <string name="action_record">Rekam</string>
+    <string name="action_stop_recording">Berhenti dan simpan</string>
+    <string name="action_remove_custom_sound">Hapus</string>
+    <string name="recording_in_progress">Merekam…</string>
+    <string name="recording_needs_permission">Izin mikrofon diperlukan untuk merekam.</string>
+    <string name="recording_too_short">Tidak ada yang terekam. Tahan sedikit lebih lama.</string>
+    <string name="custom_sound_not_set">Atur suara khusus dulu.</string>
+
+    <string name="section_today">Hari ini</string>
+    <string name="section_location">Lokasi</string>
+    <string name="section_calculation">Perhitungan</string>
+    <string name="section_notifications">Notifikasi</string>
+    <string name="section_jumuah">Jumat</string>
+    <string name="section_app">Aplikasi</string>
+
+    <string name="label_city">Nama daerah di widget</string>
+    <string name="label_method">Metode</string>
+    <string name="label_madhab">Perhitungan Asar</string>
+    <string name="label_offsets">Koreksi manual (menit)</string>
+    <string name="label_sound">Suara</string>
+    <string name="label_jumuah_enabled">Anggap Zuhur Jumat sebagai Jumatan</string>
+    <string name="label_jumuah_sound">Suara Jumat</string>
+    <string name="label_jumuah_fixed_time">Pakai jam khutbah tetap</string>
+    <string name="label_jumuah_time_value">Jam khutbah</string>
+    <string name="label_24h">Format 24 jam</string>
+    <string name="label_language">Bahasa</string>
+
+    <string name="language_system">Ikut sistem</string>
+    <string name="language_en">English</string>
+    <string name="language_id">Bahasa Indonesia</string>
+
+    <string name="action_update_location">Perbarui lokasi</string>
+    <string name="action_updating_location">Mencari sinyal…</string>
+    <string name="action_stop">Hentikan</string>
+    <string name="action_stop_preview">Hentikan pratinjau</string>
+    <string name="label_notify_this_prayer">Beri tahu pada waktu ini</string>
+    <string name="label_sound_off">Notifikasi mati</string>
+    <string name="prayer_config_hint">Ketuk salah satu waktu salat untuk mengatur notifikasi dan suaranya.</string>
+    <string name="action_done">Selesai</string>
+    <string name="label_auto_location">Perbarui lokasi saat dibuka</string>
+    <string name="label_auto_location_hint">Menyegarkan koordinat setiap kali aplikasi dibuka.</string>
+    <string name="location_header_unset">Atur lokasi</string>
+    <string name="label_alarm_style">Perlakukan seperti alarm</string>
+    <string name="label_alarm_style_hint">Nyalakan layar dan tampilkan adzan di layar kunci</string>
+    <string name="alarm_style_battery_warning">Ponsel ini masih bisa membekukan atau menunda adzan saat tidur lama kecuali penggunaan baterai aplikasi ini disetel ke tanpa batasan.</string>
+    <string name="action_fix_battery_settings">Perbaiki setelan baterai</string>
+    <string name="alarm_style_needs_permission">Izinkan notifikasi layar penuh untuk Adzan Time agar fitur ini bekerja.</string>
+    <string name="action_grant_exact_alarm">Izinkan alarm presisi</string>
+    <string name="action_fix_this">Perbaiki ini</string>
+
+    <string name="coordinates_format">Lintang %1$s, bujur %2$s</string>
+    <string name="minutes_format">%1$d mnt</string>
+    <string name="city_unknown">Atur lokasi</string>
+    <string name="location_hint">Lokasi hanya dibaca saat tombol ditekan. Nama daerah bisa Anda ubah sendiri dan tidak pernah dicari daring.</string>
+    <string name="location_unavailable">Lokasi tidak tersedia. Nyalakan GPS lalu coba lagi di luar ruangan.</string>
+    <string name="jumuah_hint">Jam tetap hanya menggantikan Zuhur pada hari Jumat.</string>
+    <string name="exact_alarm_warning">Tanpa izin alarm presisi, adzan bisa terlambat beberapa menit.</string>
+
+    <!-- Navigasi bawah -->
+    <string name="tab_times">Jadwal Adzan</string>
+    <string name="tab_qibla">Kiblat</string>
+    <string name="tab_calendar">Kalender</string>
+    <string name="tab_about">Tentang</string>
+
+    <!-- Kiblat -->
+    <string name="qibla_heading">Arah kiblat</string>
+    <string name="qibla_bearing_format">%1$s° dari utara</string>
+    <string name="qibla_distance_format">%1$s km ke Kakbah</string>
+    <string name="qibla_aligned">Menghadap Kakbah</string>
+    <string name="qibla_turn_right">Putar ke kanan</string>
+    <string name="qibla_turn_left">Putar ke kiri</string>
+    <string name="qibla_no_sensor">Ponsel ini tidak punya sensor kompas. Pakai sudut di atas dengan kompas lain: dihitung searah jarum jam dari utara sejati.</string>
+    <string name="qibla_calibrate">Kalau jarum bergoyang, gerakkan ponsel membentuk angka delapan, lalu pegang mendatar dan jauhkan dari logam.</string>
+    <string name="qibla_needs_location">Atur lokasi dulu — tombolnya ada di tab Jadwal Adzan.</string>
+
+    <!-- Kalender Hijriah -->
+    <string name="calendar_heading">Kalender Hijriah</string>
+    <string name="calendar_today_format">Hari ini: %1$s</string>
+    <string name="calendar_previous">Bulan sebelumnya</string>
+    <string name="calendar_next">Bulan berikutnya</string>
+    <string name="calendar_swipe_hint">Geser ke kiri atau kanan untuk ganti bulan, atau ketuk judul untuk melompat.</string>
+    <string name="calendar_pick_title">Lompat ke bulan</string>
+    <string name="calendar_pick_show">Tampilkan</string>
+    <string name="calendar_pick_cancel">Batal</string>
+    <string name="calendar_event_add">Tambah acara</string>
+    <string name="calendar_event_edit">Ubah acara</string>
+    <string name="calendar_event_title">Nama acara</string>
+    <string name="calendar_event_repeat">Ulangi setiap tahun</string>
+    <string name="calendar_event_repeat_hint">Muncul lagi pada tanggal Hijriah yang sama tiap tahun.</string>
+    <string name="calendar_event_repeats">Setiap tahun</string>
+    <string name="calendar_event_save">Simpan</string>
+    <string name="calendar_event_delete">Hapus acara</string>
+    <string name="calendar_event_yours">Acara Anda</string>
+    <string name="calendar_hint">Tanggal memakai perhitungan Umm al-Qura dan bisa berbeda sehari dengan hasil rukyat setempat.</string>
+    <string name="calendar_show_holidays">Tampilkan hari besar Islam</string>
+    <string name="calendar_notify_holidays">Beri tahu saya malam sebelumnya</string>
+    <string name="calendar_notify_holidays_hint">Hari Hijriah dimulai saat matahari terbenam, jadi pengingat datang sesaat sebelum Magrib pada malam sebelumnya.</string>
+    <string name="calendar_holidays_this_month">Hari besar bulan ini</string>
+    <string name="calendar_no_holidays">Tidak ada hari besar bulan ini.</string>
+    <string name="calendar_today_tap_hint">Ketuk untuk menuju bulan ini</string>
+    <string name="calendar_detail_hijri">Hijriah</string>
+    <string name="calendar_detail_gregorian">Masehi</string>
+    <string name="calendar_detail_event">Peristiwa</string>
+    <string name="calendar_detail_no_event">Tidak ada peristiwa pada tanggal ini.</string>
+    <string name="calendar_detail_close">Tutup</string>
+
+    <string name="holiday_new_year">Tahun Baru Hijriah</string>
+    <string name="holiday_ashura">Asyura</string>
+    <string name="holiday_mawlid">Maulid Nabi</string>
+    <string name="holiday_isra_miraj">Isra Mikraj</string>
+    <string name="holiday_nisfu_shaban">Nisfu Syakban</string>
+    <string name="holiday_ramadan_start">Awal Ramadan</string>
+    <string name="holiday_nuzulul_quran">Nuzululqur\'an</string>
+    <string name="holiday_eid_fitr">Idulfitri</string>
+    <string name="holiday_arafah">Hari Arafah</string>
+    <string name="holiday_eid_adha">Iduladha</string>
+    <string name="holiday_tasyrik">Hari Tasyrik</string>
+
+    <string name="hijri_month_1">Muharam</string>
+    <string name="hijri_month_2">Safar</string>
+    <string name="hijri_month_3">Rabiulawal</string>
+    <string name="hijri_month_4">Rabiulakhir</string>
+    <string name="hijri_month_5">Jumadilawal</string>
+    <string name="hijri_month_6">Jumadilakhir</string>
+    <string name="hijri_month_7">Rajab</string>
+    <string name="hijri_month_8">Syakban</string>
+    <string name="hijri_month_9">Ramadan</string>
+    <string name="hijri_month_10">Syawal</string>
+    <string name="hijri_month_11">Zulkaidah</string>
+    <string name="hijri_month_12">Zulhijah</string>
+
+    <!-- Tentang -->
+    <string name="about_tagline">Kami membuat aplikasi sederhana tanpa iklan.</string>
+    <string name="about_blurb">Tanpa iklan, tanpa pelacak, tanpa akun. Jadwal salat dihitung di ponsel Anda, dan aplikasi ini tidak pernah meminta akses internet.</string>
+    <string name="section_permissions">Izin</string>
+    <string name="permission_location">Lokasi</string>
+    <string name="permission_location_why">Dipakai sekali, saat Anda menekan “Perbarui lokasi”, untuk menghitung jadwal salat.</string>
+    <string name="permission_notifications">Notifikasi</string>
+    <string name="permission_notifications_why">Diperlukan untuk menampilkan adzan pada tiap waktu salat.</string>
+    <string name="permission_exact_alarm">Alarm presisi</string>
+    <string name="permission_exact_alarm_why">Menjaga adzan tepat sampai ke menitnya.</string>
+    <string name="permission_granted">Diizinkan</string>
+    <string name="permission_denied">Belum diizinkan</string>
+    <string name="action_recheck_permissions">Periksa ulang</string>
+    <string name="action_open_app_settings">Buka setelan aplikasi</string>
+    <string name="about_version_format">Versi %1$s</string>
+    <string name="about_contact_title">Punya ide atau ingin membuat sesuatu?</string>
+    <string name="about_contact_body">Untuk pertanyaan atau kebutuhan lebih lanjut, silakan hubungi kami.</string>
+    <string name="action_visit_us">Hubungi kami</string>
+
+    <!-- Konfigurasi widget -->
+    <string name="widget_config_title">Gaya widget</string>
+    <string name="widget_config_hint">Pengaturan ini hanya untuk widget ini, jadi Anda bisa memasang beberapa dengan tampilan berbeda.</string>
+    <string name="widget_config_theme">Latar</string>
+    <string name="widget_theme_dark">Gelap</string>
+    <string name="widget_theme_light">Terang</string>
+    <string name="widget_theme_transparent">Transparan</string>
+    <string name="widget_config_content">Isi</string>
+    <string name="widget_config_syuruq">Tampilkan Syuruq</string>
+    <string name="widget_config_syuruq_hint">Matikan agar lima kolom jadi lebih lebar.</string>
+    <string name="widget_config_done">Selesai</string>
+    <string name="section_widget">Widget</string>
+    <string name="widget_configure_hint">Ubah latar dan isi widget yang sudah Anda pasang.</string>
+    <string name="action_configure_widget">Atur widget</string>
+    <string name="widget_none_placed">Belum ada widget terpasang. Tekan lama layar utama untuk menambah.</string>
+
+    <string name="channel_adzan">Adzan</string>
+    <string name="channel_adzan_desc">Notifikasi yang muncul pada tiap waktu salat</string>
+    <string name="channel_holiday">Hari besar Islam</string>
+    <string name="channel_holiday_desc">Pengingat pada malam menjelang hari besar Islam</string>
+    <string name="channel_playback">Pemutaran adzan</string>
+    <string name="channel_playback_desc">Muncul selama adzan diputar, dengan tombol hentikan</string>
+
+    <string name="notif_title_adzan">Waktunya %1$s</string>
+    <string name="notif_title_jumuah">Waktunya salat Jumat</string>
+    <string name="notif_title_syuruq">Syuruq</string>
+    <string name="notif_body_adzan">Telah masuk waktu %1$s di lokasi Anda.</string>
+    <string name="notif_body_syuruq">Waktu Subuh telah berakhir dan waktu Duha dimulai.</string>
+    <string name="notif_title_holiday">%1$s mulai malam ini</string>
+    <string name="notif_body_holiday">%1$s dimulai saat Magrib petang ini.</string>
+    <string name="playing_adzan">Memutar adzan</string>
+
+    <!-- Uji notifikasi (Tentang) -->
+    <string name="section_notif_test">Uji notifikasi</string>
+    <string name="notif_test_ok">Notifikasi bisa sampai ke Anda. Gunakan tombol di bawah untuk memastikan.</string>
+    <string name="notif_test_blocked_permission">Izin notifikasi belum diberikan, jadi tidak ada yang bisa ditampilkan.</string>
+    <string name="notif_test_blocked_app">Notifikasi untuk aplikasi ini dimatikan di setelan sistem.</string>
+    <string name="notif_test_blocked_channel">Kategori notifikasi Adzan dimatikan di setelan sistem.</string>
+    <string name="notif_test_next">Alarm adzan berikutnya</string>
+    <string name="notif_test_next_none">Belum ada</string>
+    <string name="notif_test_exact">Alarm presisi</string>
+    <string name="notif_test_exact_why">Tanpa ini, Android bisa membunyikan alarm beberapa menit terlambat — atau menundanya lebih lama lagi saat tidur lelap (deep sleep).</string>
+    <string name="notif_test_battery">Bebas batasan baterai</string>
+    <string name="notif_test_battery_why">Sebagian ponsel membekukan atau menunda aplikasi latar belakang saat tidur lama kecuali izin ini diberikan — ini penyebab paling umum adzan terlewat.</string>
+    <string name="notif_test_sent">Notifikasi uji dikirim. Periksa panel notifikasi Anda.</string>
+    <string name="notif_test_scheduled">Alarm disetel 10 detik dari sekarang. Anda boleh menutup aplikasi.</string>
+    <string name="action_notif_test_now">Tampilkan</string>
+    <string name="action_notif_test_alarm">Uji 10 detik</string>
+    <string name="action_open_notif_settings">Setelan notifikasi</string>
+    <string name="action_open_battery_settings">Setelan baterai</string>
+    <string name="notif_test_battery_hint">Tombol ini membuka dialog pengecualian baterai bawaan Android, tapi banyak ponsel (Xiaomi, Oppo, Vivo, Samsung, OnePlus, dan lainnya) punya setelan kedua yang terpisah dan tidak bisa dibuka otomatis oleh aplikasi — biasanya bernama \"Tanpa batasan\", \"Izinkan aktivitas latar belakang\", atau \"Autostart\", di halaman Baterai aplikasi ini pada Setelan sistem. Aktifkan juga setelan itu, atau adzan tetap bisa tertunda atau terlewat saat tidur lama.</string>
+    <string name="notif_title_test">Notifikasi uji</string>
+    <string name="notif_body_test">Kalau ini terlihat, notifikasi adzan pasti sampai ke Anda.</string>
+    <string name="hijri_date_format">%1$d %2$s %3$d H</string>
+    <string name="widget_description_square">Jadwal salat berbentuk kotak, satu baris tiap salat</string>
+    <string name="label_next_prayer">Salat berikutnya</string>
+    <string name="remaining_hours_format">%1$d jam %2$d menit lagi</string>
+    <string name="remaining_minutes_format">%1$d menit lagi</string>
+    <string name="label_jumuah_khutbah_time">Waktu khutbah</string>
+    <string name="widget_config_font">Ukuran teks</string>
+    <string name="widget_config_font_hint">Widget sudah menyesuaikan ukuran teks dengan ruang yang ada. Ini menggeser hasilnya ke salah satu arah.</string>
+    <string name="widget_font_small">Kecil</string>
+    <string name="widget_font_default">Bawaan</string>
+    <string name="widget_font_large">Besar</string>
+    <string name="widget_font_huge">Sangat besar</string>
+    <string name="compass_north">U</string>
+    <string name="compass_east">T</string>
+    <string name="compass_south">S</string>
+    <string name="compass_west">B</string>
+    <string name="method_summary_angles">Subuh mulai pada %1$s di bawah ufuk, Isya pada %2$s.</string>
+    <string name="method_summary_interval">Subuh mulai pada %1$s di bawah ufuk, Isya %2$d menit setelah Magrib.</string>
+    <string name="label_fajr_angle">Sudut Subuh</string>
+    <string name="label_isha_angle">Sudut Isya</string>
+    <string name="madhab_hint">Syafi\'i menetapkan Asar saat bayangan sama panjang dengan bendanya; Hanafi menunggu dua kali panjang itu.</string>
+    <string name="offsets_hint">Ditambahkan ke tiap waktu hasil hitungan. Biarkan 0 untuk mengikuti metode apa adanya.</string>
+    <string name="widget_countdown_format">%1$s \u00B7 %2$s</string>
+</resources>

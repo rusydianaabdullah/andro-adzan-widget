@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adzan Widget</string>
+    <string name="widget_description">Prayer times for your location</string>
+
+    <string name="prayer_fajr">Fajr</string>
+    <string name="prayer_syuruq">Shuruq</string>
+    <string name="prayer_dhuhr">Dhuhr</string>
+    <string name="prayer_asr">Asr</string>
+    <string name="prayer_maghrib">Maghrib</string>
+    <string name="prayer_isha">Isha</string>
+    <string name="prayer_jumuah">Jumuah</string>
+
+    <string name="madhab_shafi">Shafi\'i (standard)</string>
+    <string name="madhab_hanafi">Hanafi</string>
+
+    <string name="method_kemenag">Kemenag (Indonesia)</string>
+    <string name="method_mwl">Muslim World League</string>
+    <string name="method_isna">ISNA (North America)</string>
+    <string name="method_egypt">Egyptian General Authority</string>
+    <string name="method_karachi">University of Karachi</string>
+    <string name="method_umm_al_qura">Umm al-Qura (Makkah)</string>
+    <string name="method_singapore">MUIS (Singapore)</string>
+    <string name="method_custom">Custom angles</string>
+
+    <string name="sound_silent">Silent (notification only)</string>
+    <string name="sound_beep">Short chime</string>
+    <string name="sound_makkah">Adzan — Makkah</string>
+    <string name="sound_haram">Adzan — Masjid al-Haram</string>
+    <string name="sound_jumuah">Adzan — Jumuah</string>
+    <string name="sound_subuh_makkah">Adzan Subuh — Makkah</string>
+    <string name="sound_subuh_madinah">Adzan Subuh — Madinah</string>
+
+    <string name="sound_custom">My own sound</string>
+    <string name="sound_custom_recording">My recording</string>
+    <string name="section_custom_sound">Custom sound</string>
+    <string name="custom_sound_none">No custom sound yet. Pick an audio file or record one, then choose “My own sound” for any prayer.</string>
+    <string name="custom_sound_current">Using: %1$s</string>
+    <string name="custom_sound_missing">The saved sound is no longer readable. Pick or record it again.</string>
+    <string name="action_pick_audio">Choose audio file</string>
+    <string name="action_record">Record</string>
+    <string name="action_stop_recording">Stop and save</string>
+    <string name="action_remove_custom_sound">Remove</string>
+    <string name="recording_in_progress">Recording…</string>
+    <string name="recording_needs_permission">Microphone access is needed to record.</string>
+    <string name="recording_too_short">Nothing was recorded. Hold on a little longer.</string>
+    <string name="custom_sound_not_set">Set a custom sound first.</string>
+
+    <string name="section_today">Today</string>
+    <string name="section_location">Location</string>
+    <string name="section_calculation">Calculation</string>
+    <string name="section_notifications">Notifications</string>
+    <string name="section_jumuah">Friday (Jumuah)</string>
+    <string name="section_app">App</string>
+
+    <string name="label_city">City name shown on the widget</string>
+    <string name="label_method">Method</string>
+    <string name="label_madhab">Asr calculation</string>
+    <string name="label_offsets">Manual correction (minutes)</string>
+    <string name="label_sound">Sound</string>
+    <string name="label_jumuah_enabled">Treat Friday Dhuhr as Jumuah</string>
+    <string name="label_jumuah_sound">Jumuah sound</string>
+    <string name="label_jumuah_fixed_time">Use a fixed khutbah time</string>
+    <string name="label_jumuah_time_value">Khutbah time</string>
+    <string name="label_24h">24-hour clock</string>
+    <string name="label_language">Language</string>
+
+    <string name="language_system">Follow system</string>
+    <string name="language_en">English</string>
+    <string name="language_id">Bahasa Indonesia</string>
+
+    <string name="action_update_location">Update location</string>
+    <string name="action_updating_location">Getting a fix…</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_stop_preview">Stop preview</string>
+    <string name="label_notify_this_prayer">Notify at this time</string>
+    <string name="label_sound_off">Notification off</string>
+    <string name="prayer_config_hint">Tap a prayer to set its notification and sound.</string>
+    <string name="action_done">Done</string>
+    <string name="label_auto_location">Update location on open</string>
+    <string name="label_auto_location_hint">Refreshes the coordinates each time the app starts.</string>
+    <string name="location_header_unset">Set location</string>
+    <string name="label_alarm_style">Treat as an alarm</string>
+    <string name="alarm_style_battery_warning">This phone can still freeze or delay the adzan during long sleep unless battery use for this app is set to unrestricted.</string>
+    <string name="action_fix_battery_settings">Fix battery settings</string>
+    <string name="label_alarm_style_hint">Wake the screen and show the adzan over the lock screen</string>
+    <string name="alarm_style_needs_permission">Allow full-screen notifications for Adzan Time to use this.</string>
+    <string name="action_grant_exact_alarm">Allow exact alarms</string>
+    <string name="action_fix_this">Fix this</string>
+
+    <string name="coordinates_format">Latitude %1$s, longitude %2$s</string>
+    <string name="minutes_format">%1$d min</string>
+    <string name="city_unknown">Set location</string>
+    <string name="location_hint">Location is only read when you press the button. The name is yours to edit — it is never looked up online.</string>
+    <string name="location_unavailable">No location available. Turn on GPS and try again outdoors.</string>
+    <string name="jumuah_hint">A fixed time replaces the calculated Dhuhr on Fridays only.</string>
+    <string name="exact_alarm_warning">Without the exact-alarm permission the adzan may be a few minutes late.</string>
+
+    <!-- Bottom navigation -->
+    <string name="tab_times">Adzan Times</string>
+    <string name="tab_qibla">Kiblat</string>
+    <string name="tab_calendar">Calendar</string>
+    <string name="tab_about">About</string>
+
+    <!-- Qibla -->
+    <string name="qibla_heading">Qibla direction</string>
+    <string name="qibla_bearing_format">%1$s° from north</string>
+    <string name="qibla_distance_format">%1$s km to the Kaaba</string>
+    <string name="qibla_aligned">Facing the Kaaba</string>
+    <string name="qibla_turn_right">Turn right</string>
+    <string name="qibla_turn_left">Turn left</string>
+    <string name="qibla_no_sensor">This phone has no compass sensor. Use the bearing above with a separate compass: it is measured clockwise from true north.</string>
+    <string name="qibla_calibrate">If the needle drifts, wave the phone in a figure-eight to recalibrate, and keep it flat and away from metal.</string>
+    <string name="qibla_needs_location">Set your location first — the Adzan Times tab has the button.</string>
+
+    <!-- Hijri calendar -->
+    <string name="calendar_heading">Hijri calendar</string>
+    <string name="calendar_today_format">Today: %1$s</string>
+    <string name="calendar_previous">Previous month</string>
+    <string name="calendar_next">Next month</string>
+    <string name="calendar_swipe_hint">Swipe left or right to change month, or tap the title to jump.</string>
+    <string name="calendar_pick_title">Jump to month</string>
+    <string name="calendar_pick_show">Show</string>
+    <string name="calendar_pick_cancel">Cancel</string>
+    <string name="calendar_event_add">Add event</string>
+    <string name="calendar_event_edit">Edit event</string>
+    <string name="calendar_event_title">Event name</string>
+    <string name="calendar_event_repeat">Repeat every year</string>
+    <string name="calendar_event_repeat_hint">It comes back on the same Hijri date each year.</string>
+    <string name="calendar_event_repeats">Every year</string>
+    <string name="calendar_event_save">Save</string>
+    <string name="calendar_event_delete">Delete event</string>
+    <string name="calendar_event_yours">Your events</string>
+    <string name="calendar_hint">Dates follow the Umm al-Qura calculation and may differ by a day from a local moon sighting.</string>
+    <string name="calendar_show_holidays">Show Islamic holidays</string>
+    <string name="calendar_notify_holidays">Notify me the evening before</string>
+    <string name="calendar_notify_holidays_hint">A Hijri day starts at sunset, so the reminder arrives shortly before Maghrib on the eve.</string>
+    <string name="calendar_holidays_this_month">Holidays this month</string>
+    <string name="calendar_no_holidays">No holidays this month.</string>
+    <string name="calendar_today_tap_hint">Tap to go to this month</string>
+    <string name="calendar_detail_hijri">Hijri</string>
+    <string name="calendar_detail_gregorian">Gregorian</string>
+    <string name="calendar_detail_event">Event</string>
+    <string name="calendar_detail_no_event">No event on this date.</string>
+    <string name="calendar_detail_close">Close</string>
+
+    <string name="holiday_new_year">Islamic New Year</string>
+    <string name="holiday_ashura">Ashura</string>
+    <string name="holiday_mawlid">Mawlid an-Nabi</string>
+    <string name="holiday_isra_miraj">Isra and Mi\'raj</string>
+    <string name="holiday_nisfu_shaban">Nisfu Sha\'ban</string>
+    <string name="holiday_ramadan_start">First day of Ramadan</string>
+    <string name="holiday_nuzulul_quran">Nuzulul Qur\'an</string>
+    <string name="holiday_eid_fitr">Eid al-Fitr</string>
+    <string name="holiday_arafah">Day of Arafah</string>
+    <string name="holiday_eid_adha">Eid al-Adha</string>
+    <string name="holiday_tasyrik">Days of Tashriq</string>
+
+    <string name="hijri_month_1">Muharram</string>
+    <string name="hijri_month_2">Safar</string>
+    <string name="hijri_month_3">Rabi\' al-Awwal</string>
+    <string name="hijri_month_4">Rabi\' al-Thani</string>
+    <string name="hijri_month_5">Jumada al-Ula</string>
+    <string name="hijri_month_6">Jumada al-Akhirah</string>
+    <string name="hijri_month_7">Rajab</string>
+    <string name="hijri_month_8">Sha\'ban</string>
+    <string name="hijri_month_9">Ramadan</string>
+    <string name="hijri_month_10">Shawwal</string>
+    <string name="hijri_month_11">Dhu al-Qa\'dah</string>
+    <string name="hijri_month_12">Dhu al-Hijjah</string>
+
+    <!-- About -->
+    <string name="about_tagline">We are building simply apps without ads.</string>
+    <string name="about_blurb">No ads, no trackers, no account. Prayer times are computed on your phone, and the app never asks for the internet.</string>
+    <string name="section_permissions">Permissions</string>
+    <string name="permission_location">Location</string>
+    <string name="permission_location_why">Used once, when you press “Update location”, to compute prayer times.</string>
+    <string name="permission_notifications">Notifications</string>
+    <string name="permission_notifications_why">Needed to show the adzan at each prayer time.</string>
+    <string name="permission_exact_alarm">Exact alarms</string>
+    <string name="permission_exact_alarm_why">Keeps the adzan on time to the minute.</string>
+    <string name="permission_granted">Granted</string>
+    <string name="permission_denied">Not granted</string>
+    <string name="action_recheck_permissions">Re-check</string>
+    <string name="action_open_app_settings">Open app settings</string>
+    <string name="about_version_format">Version %1$s</string>
+    <string name="about_contact_title">Have an idea or need something built?</string>
+    <string name="about_contact_body">For inquiries, feel free to reach out to us.</string>
+    <string name="action_visit_us">Contact us</string>
+
+    <!-- Widget configuration -->
+    <string name="widget_config_title">Widget style</string>
+    <string name="widget_config_hint">These settings apply to this widget only, so you can place several with different looks.</string>
+    <string name="widget_config_theme">Background</string>
+    <string name="widget_theme_dark">Dark</string>
+    <string name="widget_theme_light">Light</string>
+    <string name="widget_theme_transparent">Transparent</string>
+    <string name="widget_config_content">Content</string>
+    <string name="widget_config_syuruq">Show Shuruq</string>
+    <string name="widget_config_syuruq_hint">Turn off for five wider columns.</string>
+    <string name="widget_config_done">Done</string>
+    <string name="section_widget">Widget</string>
+    <string name="widget_configure_hint">Change the background and contents of a widget you have placed.</string>
+    <string name="action_configure_widget">Configure widget</string>
+    <string name="widget_none_placed">No widget placed yet. Long-press the home screen to add one.</string>
+
+    <string name="channel_adzan">Adzan</string>
+    <string name="channel_adzan_desc">The notification shown at each prayer time</string>
+    <string name="channel_holiday">Islamic holidays</string>
+    <string name="channel_holiday_desc">A reminder on the eve of each Islamic holiday</string>
+    <string name="channel_playback">Adzan playback</string>
+    <string name="channel_playback_desc">Shown while the adzan is playing, with a stop button</string>
+
+    <string name="notif_title_adzan">Time for %1$s</string>
+    <string name="notif_title_jumuah">Time for Jumuah</string>
+    <string name="notif_title_syuruq">Shuruq</string>
+    <string name="notif_body_adzan">It is now %1$s at your location.</string>
+    <string name="notif_body_syuruq">Fajr has ended and the Dhuha window has begun.</string>
+    <string name="notif_title_holiday">%1$s begins tonight</string>
+    <string name="notif_body_holiday">%1$s starts at Maghrib this evening.</string>
+    <string name="playing_adzan">Playing the adzan</string>
+
+    <!-- Notification test (About) -->
+    <string name="section_notif_test">Notification test</string>
+    <string name="notif_test_ok">Notifications can reach you. Use the buttons below to confirm.</string>
+    <string name="notif_test_blocked_permission">Notification permission is not granted, so nothing can be shown.</string>
+    <string name="notif_test_blocked_app">Notifications are switched off for this app in system settings.</string>
+    <string name="notif_test_blocked_channel">The Adzan notification category is switched off in system settings.</string>
+    <string name="notif_test_next">Next adzan alarm</string>
+    <string name="notif_test_next_none">None armed</string>
+    <string name="notif_test_exact">Exact alarms</string>
+    <string name="notif_test_exact_why">Without this, Android may fire the alarm a few minutes late — or defer it further during deep sleep.</string>
+    <string name="notif_test_battery">Battery unrestricted</string>
+    <string name="notif_test_battery_why">Some phones freeze or delay background apps during long sleep unless this is granted, which is the most common reason an adzan gets missed.</string>
+    <string name="notif_test_sent">Test notification sent. Check your notification shade.</string>
+    <string name="notif_test_scheduled">Alarm set for 10 seconds from now. You can leave the app.</string>
+    <string name="action_notif_test_now">Show now</string>
+    <string name="action_notif_test_alarm">Test in 10s</string>
+    <string name="action_open_notif_settings">Notification settings</string>
+    <string name="action_open_battery_settings">Battery settings</string>
+    <string name="notif_test_battery_hint">Tapping this opens Android\'s own battery exemption dialog, but many phones (Xiaomi, Oppo, Vivo, Samsung, OnePlus, and others) have a second, separate setting the app can\'t open for you — often called \"No restrictions\", \"Allow background activity\", or \"Autostart\", under the app\'s own Battery or Battery usage page in system Settings. Set that too, or the adzan can still be delayed or skipped during long sleep.</string>
+    <string name="notif_title_test">Test notification</string>
+    <string name="notif_body_test">If you can see this, adzan notifications will reach you.</string>
+    <string name="hijri_date_format">%1$d %2$s %3$d H</string>
+    <string name="widget_description_square">Prayer times in a square, one row per prayer</string>
+    <string name="label_next_prayer">Next prayer</string>
+    <string name="remaining_hours_format">in %1$dh %2$dm</string>
+    <string name="remaining_minutes_format">in %1$dm</string>
+    <string name="label_jumuah_khutbah_time">Khutbah time</string>
+    <string name="widget_config_font">Text size</string>
+    <string name="widget_config_font_hint">The widget already sizes its text to the space it is given. This nudges that either way.</string>
+    <string name="widget_font_small">Small</string>
+    <string name="widget_font_default">Default</string>
+    <string name="widget_font_large">Large</string>
+    <string name="widget_font_huge">Huge</string>
+    <string name="compass_north">N</string>
+    <string name="compass_east">E</string>
+    <string name="compass_south">S</string>
+    <string name="compass_west">W</string>
+    <string name="method_summary_angles">Fajr begins at %1$s below the horizon, Isha at %2$s.</string>
+    <string name="method_summary_interval">Fajr begins at %1$s below the horizon, Isha %2$d minutes after Maghrib.</string>
+    <string name="label_fajr_angle">Fajr angle</string>
+    <string name="label_isha_angle">Isha angle</string>
+    <string name="madhab_hint">Shafi\'i puts Asr when a shadow equals the object\'s length; Hanafi waits for twice that.</string>
+    <string name="offsets_hint">Added to each calculated time. Leave at 0 to follow the method exactly.</string>
+    <!-- The countdown beside the Hijri date. %1$s is the prayer; %2$s is the running
+         count the launcher substitutes, which goes negative when an adzan was missed. -->
+    <string name="widget_countdown_format">%1$s \u00B7 %2$s</string>
+</resources>
